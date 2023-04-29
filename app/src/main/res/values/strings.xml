@@ -2,29 +2,17 @@
     <string name="app_name">ArtGallery</string>
 
 
-    <string name="Titulo_fiora">FIORA: LA GRAN DUELISTA</string>
-    <string name="Titulo_hecarim">HECARIM: LA SOMBRA DE LA GUERRA</string>
-    <string name="Titulo_irelia">IRELIA: LA CUCHILLA DANZANTE</string>
-    <string name="Titulo_leesin">LEE SIN: EL MONJE CIEGO</string>
-    <string name="Titulo_malzahar">MALZAHAR: EL PROFETA DEL VACÍO</string>
-    <string name="Titulo_missfortune">MISS FORTUNE: CAZARRECOMPENSAS</string>
+    <string name="Titulo_velkoz">VELKOZ: EL OJO DEL VACÍO</string>
     <string name="Titulo_mordekaiser">MORDEKAISER: EL RENACIDO DE HIERRO</string>
     <string name="Titulo_pyke">PYKE: EL DESTRIPADOR DEL MUELLE ROJO</string>
     <string name="Titulo_kayle">KAYLE: LA JUSTICIERA</string>
-    <string name="Titulo_yasuo">YASUO: EL IMPERDONABLE</string>
     <string name="Titulo_zed">ZED: EL MAESTRO DE LAS SOMBRAS </string>
 
 
-    <string name="Info_fiora">La duelista más temida en todo Valoran, Fiora es conocida por sus modos ásperos e ingenio político tanto como por la velocidad de su florete.</string>
-    <string name="Info_hecarim">Hecarim es una fusión espectral de un hombre y una bestia, condenado a pisotear las almas de los vivos por toda la eternidad. </string>
-    <string name="Info_irelia">Entrenada en las ancestrales danzas de su región, adaptó su arte para la guerra y ahora usa sus movimientos refinados y llenos de gracia para controlar un arsenal de cuchillas letales. </string>
-    <string name="Info_leesin">Maestro de las antiguas artes marciales jonianas, es un peleador ejemplar que canaliza la esencia del espíritu del dragón para enfrentar cualquier desafío que se le presente.</string>
-    <string name="Info_malzahar">Un fanático vidente dedicado a la unificación de toda la vida, Malzahar cree verdaderamente que el Vacío recién emergido es el camino a la salvación de Runaterra.</string>
-    <string name="Info_missfortune">Sarah Fortune, capitana de Aguasturbias famosa por su apariencia, pero temida por su brutalidad, es una figura severa entre los criminales más duros de la ciudad portuaria.</string>
     <string name="Info_mordekaiser">Asesinado dos veces y renacido tres, Mordekaiser es un señor de la guerra brutal de una época olvidada, quien usa su brujería nigromántica para atar almas a una esclavitud eterna.</string>
     <string name="Info_pyke">Un reconocido arponero de los Muelles del Matadero de Aguasturbias, Pyke debió encontrarse con su fin en el estómago de un enorme leviatán... pero logró regresar.</string>
     <string name="Info_kayle">Nacida de un Aspecto targoniano durante el clímax de las Guerras Rúnicas, Kayle honra el legado de su madre al pelear por la justicia con sus alas de fuego divino. </string>
-    <string name="Info_yasuo">Un jonio de profunda determinación, es un ágil espadachín que empuña al propio viento contra sus enemigos. Cuando era un joven orgulloso, lo acusaron injustamente de asesinar a su maestro. </string>
+    <string name="Info_velkoz">No está claro si VelKoz fue la primera aberración que emergió en Runaterra, pero ciertamente no ha habido ningún otro con una conciencia tan cruel y calculadora.</string>
     <string name="Info_zed">Es el líder de la Orden de la Sombra, una organización que él creó con la intención de militarizar las tradiciones de artes marciales y mágicas de Jonia para repeler a los invasores noxianos.</string>
 
 </resources>

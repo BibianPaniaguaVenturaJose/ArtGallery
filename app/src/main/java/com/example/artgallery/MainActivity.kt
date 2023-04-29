@@ -55,37 +55,42 @@ fun ArtImage(modifier : Modifier=Modifier){
         Spacer(modifier = Modifier.height(80.dp))
 
 
-        Row(horizontalArrangement = Arrangement.Start) {
+       Row(horizontalArrangement = Arrangement.Start) {
             Image(painter = painterResource(id = imagenResource), contentDescription =null)
-
+            Spacer(modifier = Modifier.padding(vertical = 16.dp))
         }
 
         Row(horizontalArrangement = Arrangement.Center) {
             Text(stringResource(id = tituloResource))
+            Spacer(modifier = Modifier.padding(all = 16.dp))
         }
         Row(horizontalArrangement = Arrangement.Center) {
             Text(stringResource(id = textoResource), textAlign = TextAlign.Center)
         }
+
         Row(horizontalArrangement = Arrangement.Center) {
             Button(onClick = {
-                if (imagen>0 || imagen<2){
+                if (imagen>0 || imagen<4){
                     imagen--
                 }
-                if(imagen<=0){
-                    imagen=2
+                if(imagen<0){
+                    imagen=4
                 }
-            }) {
-                Text(text = "Previos")
+            }, modifier = Modifier.padding(vertical = 16.dp)
+            ) {
+                Text(text = "Anterior")
             }
+            Spacer(modifier = Modifier.padding(horizontal = 16.dp))
             Button(onClick = {
-                if (imagen>0 || imagen<2){
+                if (imagen>0 || imagen<4){
                     imagen++
                 }
-                if(imagen>=2){
+                if(imagen>4){
                     imagen=0
                 }
-            }) {
-                Text(text = "Next ")
+            }, modifier = Modifier.padding(vertical = 16.dp)
+            ) {
+                Text(text = "Siguiente ")
             }
         }
     }
@@ -93,9 +98,11 @@ fun ArtImage(modifier : Modifier=Modifier){
 
 private fun getImage(id:Int):Int{
     val imagenResource = when(id) {
-        1->R.drawable.architecture
-        2->R.drawable.business
-        else->R.drawable.crafts
+        1->R.drawable.sun_eater_kayle
+        2->R.drawable.pyke
+        3->R.drawable.mordekaiser
+        4->R.drawable.velkoz_
+        else->R.drawable.zed
     }
     return  imagenResource
 }
@@ -104,6 +111,8 @@ private fun getTexto(id:Int):Int{
     val textoResource = when(id) {
         1->R.string.Info_kayle
         2->R.string.Info_pyke
+        3->R.string.Info_mordekaiser
+        4->R.string.Info_velkoz
         else->R.string.Info_zed
     }
 
@@ -114,6 +123,8 @@ private fun getTitulo(id:Int):Int{
     val tituloResource = when(id) {
         1->R.string.Titulo_kayle
         2->R.string.Titulo_pyke
+        3->R.string.Titulo_mordekaiser
+        4->R.string.Titulo_velkoz
         else->R.string.Titulo_zed
     }
     return tituloResource
